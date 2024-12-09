@@ -6,7 +6,7 @@ from typing import Any
 import re
 from collections import defaultdict
 
-REGISTRY = "docker://ghcr.io/ublue-os/"
+REGISTRY = "docker://ghcr.io/apoordev/"
 
 IMAGE_MATRIX_LATEST = {
     "experience": ["base", "dx"],
@@ -67,7 +67,6 @@ From previous `{target}` version `{prev}` there have been the following changes.
 | Name | Version |
 | --- | --- |
 | **Incus** | {pkgrel:incus} |
-| **Docker** | {pkgrel:docker-ce} |
 | **Devpod** | {pkgrel:devpod} |
 
 {changes}
@@ -98,7 +97,6 @@ BLACKLIST_VERSIONS = [
     "plasma-desktop",
     "mesa-filesystem",
     "podman",
-    "docker-ce",
     "incus",
     "devpod",
     "nvidia-driver"
