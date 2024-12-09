@@ -243,6 +243,12 @@ alias rollback-helper := rebase-helper
 rebase-helper:
     @/usr/bin/ublue-rollback-helper
 
+# Install Nix
+install-nix:
+    echo "This will install nix from Determinate Systems..."
+    echo "THIS IS EXPERIMENTAL WITH SELINUX"
+    HOME="/var/home/$USER" curl --proto '=https' --tlsv1.2 -sSf -L https://install.determinate.systems/nix | sh -s -- install
+
 # Toggle tailscale
 [group('System')]
 toggle-tailscale:
