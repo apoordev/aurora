@@ -1,20 +1,9 @@
-# Aurora
+<h3 align="center" style="font-size:60px;">Aurora</h3>
+<h5 align="center">My personalized fork of Aurora</h5>
 
-[![Codacy Badge](https://app.codacy.com/project/badge/Grade/2503a44c1105456483517f793af75ee7)](https://app.codacy.com/gh/ublue-os/bluefin/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)
-
-[![GTS Images](https://github.com/ublue-os/bluefin/actions/workflows/build-image-gts.yml/badge.svg)](https://github.com/ublue-os/bluefin/actions/workflows/build-image-gts.yml)[![Stable Images](https://github.com/ublue-os/bluefin/actions/workflows/build-image-stable.yml/badge.svg)](https://github.com/ublue-os/bluefin/actions/workflows/build-image-stable.yml)[![Latest Images](https://github.com/ublue-os/bluefin/actions/workflows/build-image-latest.yml/badge.svg)](https://github.com/ublue-os/bluefin/actions/workflows/build-image-latest.yml)[![Beta Images](https://github.com/ublue-os/bluefin/actions/workflows/build-image-beta.yml/badge.svg)](https://github.com/ublue-os/bluefin/actions/workflows/build-image-beta.yml)
-
-![Screenshot_20240423_211805](https://github.com/ublue-os/bluefin/assets/40402114/1bea1ed8-d97a-402a-957b-e0f338d38230)
+[![GTS Images](https://github.com/apoordev/bluefin/actions/workflows/build-image-gts.yml/badge.svg)](https://github.com/apoordev/bluefin/actions/workflows/build-image-gts.yml)[![Stable Images](https://github.com/apoordev/bluefin/actions/workflows/build-image-stable.yml/badge.svg)](https://github.com/apoordev/bluefin/actions/workflows/build-image-stable.yml)[![Latest Images](https://github.com/apoordev/bluefin/actions/workflows/build-image-latest.yml/badge.svg)](https://github.com/apoordev/bluefin/actions/workflows/build-image-latest.yml)[![Beta Images](https://github.com/apoordev/bluefin/actions/workflows/build-image-beta.yml/badge.svg)](https://github.com/apoordev/bluefin/actions/workflows/build-image-beta.yml)
 
 Aurora is a delightful KDE desktop experience for end-users that are looking for reliability and developers for the most-hassle free setup. Zero maintenance included.
-
-- [Download Aurora](https://getaurora.dev)
-
-## Documentation
-
-1. [Discussions and Announcements](https://universal-blue.discourse.group/c/bluefin/6) - strongly recommended!
-2. [Documentation](https://docs.projectbluefin.io/)
-3. [Contributing Guide](https://docs.projectbluefin.io/contributing)
 
 ### Secure Boot
 
@@ -36,17 +25,3 @@ If you'd like to enroll this key prior to installation or rebase, download the k
 sudo mokutil --timeout -1
 sudo mokutil --import public_key.der
 ```
-
-## Repobeats
-
-![Alt](https://repobeats.axiom.co/api/embed/c86e98a6654e55f789375ff210dd4eb95f757906.svg "Repobeats analytics image")
-
-## Star History
-
-<a href="https://star-history.com/#ublue-os/bluefin&Date">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=ublue-os/aurora&type=Date&theme=dark" />
-    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=ublue-os/aurora&type=Date" />
-    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=ublue-os/aurora&type=Date" />
-  </picture>
-</a>
