@@ -1,7 +1,7 @@
 <h3 align="center" style="font-size:60px;">Aurora</h3>
 <h5 align="center">My personalized fork of Aurora</h5>
 
-[![GTS Images](https://github.com/apoordev/bluefin/actions/workflows/build-image-gts.yml/badge.svg)](https://github.com/apoordev/bluefin/actions/workflows/build-image-gts.yml)[![Stable Images](https://github.com/apoordev/bluefin/actions/workflows/build-image-stable.yml/badge.svg)](https://github.com/apoordev/bluefin/actions/workflows/build-image-stable.yml)[![Latest Images](https://github.com/apoordev/bluefin/actions/workflows/build-image-latest.yml/badge.svg)](https://github.com/apoordev/bluefin/actions/workflows/build-image-latest.yml)[![Beta Images](https://github.com/apoordev/bluefin/actions/workflows/build-image-beta.yml/badge.svg)](https://github.com/apoordev/bluefin/actions/workflows/build-image-beta.yml)
+[![GTS Images](https://github.com/apoordev/aurora/actions/workflows/build-image-gts.yml/badge.svg)](https://github.com/apoordev/aurora/actions/workflows/build-image-gts.yml)[![Stable Images](https://github.com/apoordev/aurora/actions/workflows/build-image-stable.yml/badge.svg)](https://github.com/apoordev/aurora/actions/workflows/build-image-stable.yml)[![Latest Images](https://github.com/apoordev/aurora/actions/workflows/build-image-latest.yml/badge.svg)](https://github.com/apoordev/aurora/actions/workflows/build-image-latest.yml)[![Beta Images](https://github.com/apoordev/aurora/actions/workflows/build-image-beta.yml/badge.svg)](https://github.com/apoordev/aurora/actions/workflows/build-image-beta.yml)
 
 Aurora is a delightful KDE desktop experience for end-users that are looking for reliability and developers for the most-hassle free setup. Zero maintenance included.
 
