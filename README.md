@@ -12,7 +12,7 @@ This is my personal opinionated fork of [ublue](https://universal-blue.org/)'s A
 - Replaced VSCode with VSCodium (topgrade support in [#788](https://github.com/topgrade-rs/topgrade/pull/788))
 - Added install-nix ujust command [EXPERIMENTAL]
 - Changed Logo
-- 
+
 ### Secure Boot
 
 Secure Boot is supported by default on our systems, providing an additional layer of security. After the first installation, you will be prompted to enroll the secure boot key in the BIOS.
