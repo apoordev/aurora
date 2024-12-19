@@ -110,6 +110,7 @@
 				"dbus-x11",
 				"devpod",
 				"podman-docker",
+				"devpod",
 				"edk2-ovmf",
 				"flatpak-builder",
 				"genisoimage",
