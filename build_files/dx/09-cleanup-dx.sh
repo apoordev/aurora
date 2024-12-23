@@ -5,8 +5,8 @@ set -eoux pipefail
 systemctl enable podman.socket
 systemctl enable swtpm-workaround.service
 systemctl enable libvirt-workaround.service
-systemctl enable bluefin-dx-groups.service
-systemctl enable --global bluefin-dx-user-vscodium.service
+systemctl enable aurora-dx-groups.service
+systemctl enable --global aurora-dx-user-vscodium.service
 systemctl disable pmie.service
 systemctl disable pmlogger.service
 

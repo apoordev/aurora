@@ -5,7 +5,11 @@ After=network-online.target ublue-user-setup.service
 
 [Service]
 Type=oneshot
+<<<<<<<< HEAD:system_files/dx/usr/lib/systemd/user/bluefin-dx-user-vscodium.service
 ExecStart=/usr/libexec/bluefin-dx-user-vscodium
+========
+ExecStart=/usr/libexec/aurora-dx-user-vscodium
+>>>>>>>> 8a92fd98dba53dbb6ce07cdd47e2b07936bde409:system_files/dx/usr/lib/systemd/user/aurora-dx-user-vscodium.service
 Restart=on-failure
 RestartSec=30
 StartLimitInterval=0

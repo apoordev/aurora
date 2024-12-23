@@ -7,7 +7,11 @@ USER_SETUP_VER_RAN=$(cat "$USER_SETUP_VER_FILE")
 
 mkdir -p "$(dirname "$USER_SETUP_VER_FILE")" || exit 1
 
+<<<<<<<< HEAD:system_files/dx/usr/libexec/bluefin-dx-user-vscodium
 USER_SETUP_VER_FILE_V1="$HOME/.bluefin-vscodium-configured"
+========
+USER_SETUP_VER_FILE_V1="$HOME/.aurora-vscodium-configured"
+>>>>>>>> 8a92fd98dba53dbb6ce07cdd47e2b07936bde409:system_files/dx/usr/libexec/aurora-dx-user-vscodium
 # Upgrade from v1 to v2 changes only the location of the USER_SETUP_VER.
 # Exit if v1 file is present.
 if [[ -f $USER_SETUP_VER_FILE_V1 ]]; then
